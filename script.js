@@ -58,7 +58,7 @@ const ramos = [
      // Semestre 8
      { id: "edu0337", nombre: "Didáctica de las ciencias naturales II", desc: "Facultad de Educación\n10 créditosEs prerequisito de:\n- Práctica Profesional I\n- Didáctica de las ciencias naturales III (mención Ciencias naturales)", semestre: 8, prereqs: ["fis119e", "edu0336"] },
      { id: "edu556", nombre: "Dimensión ética de la profesión docente", desc: "Facultad de Educación\n5 créditos", semestre: 8, prereqs: [] },
-     { id: "edu0335", nombre: "Didáctica de la geografía", desc: "Facultad de Educación\n10 créditos", semestre: 8, prereqs: ["geo111", "edu0315", "edu0318", "edu0319"] },
+     { id: "edu0335", nombre: "Didáctica de la geografía", desc: "Facultad de Educación\n10 créditos\nEs prerequisito de:\n- Práctica Profesional I", semestre: 8, prereqs: ["geo111", "edu0315", "edu0318", "edu0319"] },
      { id: "edu0307", nombre: "Historia y políticas educacionales", semestre: 8, desc: "Facultad de Educación\n5 créditos", prereqs: [], grupoOptativo: "optativos1"},
      { id: "edu0308", nombre: "Educación y filosofía", semestre: 8, desc: "Facultad de Educación\n5 créditos", prereqs: [], grupoOptativo: "optativos1"},
      { id: "edu0309", nombre: "Educación, cultura y sociedad", semestre: 8, desc: "Facultad de Educación\n5 créditos", prereqs: [], grupoOptativo: "optativos1"},
@@ -66,7 +66,7 @@ const ramos = [
      { id: "ofg6", nombre: "Formación general", desc: "10 créditos", semestre: 8, prereqs: [] }, 
      // Semestre 9
      { id: "edu0316", nombre: "Gestión y liderazgo en el aula", desc: "Facultad de Educación\n 10 créditos", prereqs: [], semestre: 9 },
-     { id: "edu0360", nombre: "Práctica Profesional I", desc: "Facultad de Educación\n20 créditos\nEs prerequisito de:\n- Práctica Profesional II (mención)\n- Didáctica de las ciencias naturales III (mención Ciencias naturales)", semestre: 9, prereqs: ["edu0340", "edu0331", "edu0333", "edu0334", "edu0337"] },
+     { id: "edu0360", nombre: "Práctica Profesional I", desc: "Facultad de Educación\n20 créditos\nEs prerequisito de:\n- Práctica Profesional II (mención)\n- Didáctica de las ciencias naturales III (mención Ciencias naturales)", semestre: 9, prereqs: ["edu0340", "edu0331", "edu0333", "edu0335", "edu0337"] },
   ];
   
 const menciones = {

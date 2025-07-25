@@ -51,16 +51,17 @@ const ramos = [
     { id: "ofg2", nombre: "Formación general", desc: "10 créditos", semestre: 6, prereqs: [] },
     // Semestre 7
     { id: "edu0321", nombre: "Seminario de investigación en educación", desc: "Facultad de Educación\n10 créditos\nEs prerequisito de:\n- Elementos de gramática española (mención Lenguaje y comunicación)", semestre: 7, prereqs: [] },
-    { id: "geo111", nombre: "Geografía de Chile: Espacio y sociedad", desc: "Facultad de Geografía\n10 créditos", semestre: 7, prereqs: [] },
+    { id: "geo111", nombre: "Geografía de Chile: Espacio y sociedad", desc: "Facultad de Geografía\n10 créditos\nEs prerequisito de:\n- Didáctica de la geografía", semestre: 7, prereqs: [] },
     { id: "edu0340", nombre: "Práctica III", desc: "Facultad de Educación\n10 créditos\nEs prerequisito de:\n- Práctica Profesional I\n-  Elementos de gramática española (mención Lenguaje y comunicación)", semestre: 7, prereqs: ["edu0339", "edu0332", "edu0334", "edu0336"] },
     { id: "ofg3", nombre: "Formación general", desc: "10 créditos", semestre: 7, prereqs: [] },
     { id: "ofg4", nombre: "Formación general", desc: "10 créditos", semestre: 7, prereqs: [] },
      // Semestre 8
      { id: "edu0337", nombre: "Didáctica de las ciencias naturales II", desc: "Facultad de Educación\n10 créditosEs prerequisito de:\n- Práctica Profesional I\n- Didáctica de las ciencias naturales III (mención Ciencias naturales)", semestre: 8, prereqs: ["fis119e", "edu0336"] },
      { id: "edu556", nombre: "Dimensión ética de la profesión docente", desc: "Facultad de Educación\n5 créditos", semestre: 8, prereqs: [] },
-     {id: "edu0307", nombre: "Historia y políticas educacionales", semestre: 8, desc: "Facultad de Educación\n5 créditos", prereqs: [], grupoOptativo: "optativos1"},
-     {id: "edu0308", nombre: "Educación y filosofía", semestre: 8, desc: "Facultad de Educación\n5 créditos", prereqs: [], grupoOptativo: "optativos1"},
-     {id: "edu0309", nombre: "Educación, cultura y sociedad", semestre: 8, desc: "Facultad de Educación\n5 créditos", prereqs: [], grupoOptativo: "optativos1"},
+     { id: "edu0335", nombre: "Didáctica de la geografía", desc: "Facultad de Educación\n5 créditos", semestre: 8, prereqs: ["geo111", "edu0315", "edu0318", "edu0319"] },
+     { id: "edu0307", nombre: "Historia y políticas educacionales", semestre: 8, desc: "Facultad de Educación\n5 créditos", prereqs: [], grupoOptativo: "optativos1"},
+     { id: "edu0308", nombre: "Educación y filosofía", semestre: 8, desc: "Facultad de Educación\n5 créditos", prereqs: [], grupoOptativo: "optativos1"},
+     { id: "edu0309", nombre: "Educación, cultura y sociedad", semestre: 8, desc: "Facultad de Educación\n5 créditos", prereqs: [], grupoOptativo: "optativos1"},
      { id: "ofg5", nombre: "Formación general", desc: "10 créditos", semestre: 8, prereqs: [] },
      { id: "ofg6", nombre: "Formación general", desc: "10 créditos", semestre: 8, prereqs: [] }, 
      // Semestre 9

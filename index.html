@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malla Interactiva PEB UC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Malla Pedagogía en educación general básica UC</h1>
+  <div id="malla-container" class="grid-container"></div>
+  <div id="tooltip" class="tooltip" style="display:none;"></div>
+
+  <div class="boton-reinicio-container">
+    <button onclick="reiniciarMalla()" class="boton-reinicio">Reiniciar Malla</button>
+  </div>
+
+  <div style="text-align: center; margin-bottom: 20px;">
+    <label for="mencionSelect">Selecciona tu mención: </label>
+    <select id="mencionSelect">
+      <option value="">-- Elige una opción --</option>
+      <option value="lenguaje">Lenguaje y Comunicación</option>
+      <option value="matematica">Matemática</option>
+      <option value="naturales">Ciencias naturales</option>
+      <option value="sociales">Ciencias sociales</option>
+    </select>
+  </div>  
+
+
+  <script src="script.js"></script>
+</body>
+</html>

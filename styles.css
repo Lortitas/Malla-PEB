@@ -1,0 +1,96 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .grid-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .semestre-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 150px;
+  }
+  
+  .semestre-column h3 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .ramo {
+    background: #fff;
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .ramo:hover {
+    background-color: #e0f7fa;
+  }
+  
+  .ramo.completado {
+    background-color: #c8e6c9;
+    border-color: #4caf50;
+    color: #2e7d32;
+  }
+  
+  .ramo.bloqueado {
+    background-color: #eeeeee;
+    color: #aaa;
+    border-color: #aaa;
+    cursor: not-allowed;
+  }
+
+  .boton-reinicio-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .boton-reinicio {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #fff;
+    color: #444;
+    border-color: #aaa;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .boton-reinicio:hover {
+    background-color: #eeeeee;
+  }
+
+  .tooltip {
+    position: absolute;
+    background: #333;
+    color: #fff;
+    padding: 12px;
+    border-radius: 6px;
+    max-width: 220px;
+    font-size: 14px;
+    z-index: 999;
+    pointer-events: none;
+    line-height: 1.4;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    white-space: pre-line;  /* <- clave para saltos de línea con \n */
+  }
+  
+  

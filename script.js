@@ -58,7 +58,7 @@ const ramos = [
      // Semestre 8
      { id: "edu0337", nombre: "Didáctica de las ciencias naturales II", desc: "Facultad de Educación\n10 créditosEs prerequisito de:\n- Práctica Profesional I\n- Didáctica de las ciencias naturales III (mención Ciencias naturales)", semestre: 8, prereqs: ["fis119e", "edu0336"] },
      { id: "edu556", nombre: "Dimensión ética de la profesión docente", desc: "Facultad de Educación\n5 créditos", semestre: 8, prereqs: [] },
-     { id: "edu0335", nombre: "Didáctica de la geografía", desc: "Facultad de Educación\n5 créditos", semestre: 8, prereqs: ["geo111", "edu0315", "edu0318", "edu0319"] },
+     { id: "edu0335", nombre: "Didáctica de la geografía", desc: "Facultad de Educación\n10 créditos", semestre: 8, prereqs: ["geo111", "edu0315", "edu0318", "edu0319"] },
      { id: "edu0307", nombre: "Historia y políticas educacionales", semestre: 8, desc: "Facultad de Educación\n5 créditos", prereqs: [], grupoOptativo: "optativos1"},
      { id: "edu0308", nombre: "Educación y filosofía", semestre: 8, desc: "Facultad de Educación\n5 créditos", prereqs: [], grupoOptativo: "optativos1"},
      { id: "edu0309", nombre: "Educación, cultura y sociedad", semestre: 8, desc: "Facultad de Educación\n5 créditos", prereqs: [], grupoOptativo: "optativos1"},
